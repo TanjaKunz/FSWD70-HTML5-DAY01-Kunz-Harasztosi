@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Contact form</title>
+</head>
+<body>
+	<h1>Contact form</h1>
+
+	<form action="action_page.php">
+		
+		<p><b>Please enter your name here:</b><br>
+			<br>
+			<input type="text" name="firstName" placeholder="First Name"><br>
+			<br>
+			<input type="text" name="lastName" placeholder="Last Name"><br>
+			<br>
+		</p>
+		
+		<p><b>Please choose your age span</b>
+			<br>
+			<input type="radio" name="age" value="below 15">below 15 <br>
+			<input type="radio" name="age" value="15 to 30">15 to 30 <br>
+			<input type="radio" name="age" value="30 to 50">30 to 50 <br>
+			<input type="radio" name="age" value="50 to 75">50 to 75 <br>
+			<input type="radio" name="age" value="over 75">over 75 <br>
+		</p>
+		
+		<p><b>Gender</b>
+			<br>
+			<select>
+				<option value="male" selected="">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select>
+			<br>
+		</p>
+		
+		<p><b>Message</b>
+			<br>
+			<textarea name="message" rows="2" cols="50"></textarea>
+			<br>
+		</p>
+		
+		<input type="submit" value="Submit data">
+
+	</form>
+
+</body>
+</html>
